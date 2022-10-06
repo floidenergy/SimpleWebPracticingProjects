@@ -1,0 +1,41 @@
+body{
+    background-image: url('./background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container > .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 13vw;
+}
+
+.container > .box > p:not(.label){
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+    line-height: 80%;
+}
+
+.container > .box > p.label{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+}
+
+p.separator{
+    font-size: 50px;
+    font-family: 'Rubik';
+}
